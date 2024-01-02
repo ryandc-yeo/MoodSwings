@@ -1,6 +1,9 @@
 import discord
+# import spotipy
+# from spotipy import SpotifyClientCredentials
 import responses
 import config
+
 
 async def send_msg(message, user_msg, is_private):
     try:
